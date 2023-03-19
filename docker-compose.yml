@@ -7,7 +7,6 @@ services:
       - MARIADB_PASSWORD=my_cool_secret
       - MARIADB_ROOT_PASSWORD=my-secret-pw
       - MARIADB_DATABASE=wordpress
-    # Descomenta estas líneas si necesita acceder a mariadb desde el host
     # ports:
     #   - "3306:3306"
     volumes:
